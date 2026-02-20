@@ -1,10 +1,10 @@
 <div align="center">
 
-# ✈️ AV School
+# 🧵 The Sewing Institute
 
-**Academia de Aviacion — Plataforma de Gestion Academica**
+**Instituto de Costura — Plataforma de Gestion Academica**
 
-Una aplicacion web moderna para la gestion de cursos, inscripciones y pagos de una escuela de aviacion. Construida con React, TypeScript y TailwindCSS con un diseno minimalista inspirado en Apple.
+Una aplicacion web moderna para la gestion de cursos, inscripciones y pagos de un instituto de costura y confeccion. Construida con React, TypeScript y TailwindCSS con un diseno minimalista inspirado en Apple.
 
 [Ver Demo](#instalacion) · [Tecnologias](#tech-stack) · [Estructura](#estructura-del-proyecto)
 
@@ -99,8 +99,8 @@ src/
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/JensenPadillaFigueroa/avSchool.git
-cd avSchool
+git clone https://github.com/JensenPadillaFigueroa/TheSewingInstitute.git
+cd TheSewingInstitute
 
 # Instalar dependencias
 npm install
@@ -116,7 +116,7 @@ npm run build
 
 ## 💳 Funcionalidades
 
-- **Catalogo de cursos** — Filtrado por categoria (Piloto, Mecanica, Despachador, Drones)
+- **Catalogo de cursos** — Filtrado por categoria (Costura Basica, Patronaje, Bordado, Confeccion)
 - **Detalle de cursos** — Descripcion, caracteristicas, instructor, horario, capacidad
 - **Inscripcion** — Formulario de 2 pasos con validacion
 - **Pagos flexibles** — Pago completo o down payment (pago inicial)
@@ -131,6 +131,6 @@ npm run build
 
 <div align="center">
 
-Hecho con ☕ y React
+Hecho con 🧵 y React
 
 </div>
