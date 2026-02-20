@@ -4,8 +4,8 @@ import { schoolInfo } from '../data/mockData'
 export default function Footer() {
   return (
     <footer className="mt-auto border-t border-[#d2d2d7]/30 bg-[#f5f5f7]">
-      <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-10">
           <div>
             <div className="mb-3 flex items-center gap-2">
               <Scissors className="h-4 w-4 text-[#1e3a5f]" />

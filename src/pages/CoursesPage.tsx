@@ -20,20 +20,20 @@ export default function CoursesPage() {
   const filtered = filter === 'todos' ? courses : courses.filter((c) => c.category === filter)
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-10 md:py-14">
-      <div className="mb-8">
-        <h1 className="mb-1.5 text-2xl font-bold tracking-tight text-[#1d1d1f] md:text-3xl">Nuestros Cursos</h1>
-        <p className="text-[15px] text-[#86868b]">
+    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 md:py-14">
+      <div className="mb-6 md:mb-8">
+        <h1 className="mb-1.5 text-xl font-bold tracking-tight text-[#1d1d1f] sm:text-2xl md:text-3xl">Nuestros Cursos</h1>
+        <p className="text-[14px] text-[#86868b] sm:text-[15px]">
           Explora nuestra oferta academica y encuentra el programa ideal para ti.
         </p>
       </div>
 
-      <div className="mb-8 flex flex-wrap gap-2">
+      <div className="no-scrollbar -mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 md:mb-8">
         {categories.map((cat) => (
           <button
             key={cat.value}
             onClick={() => setFilter(cat.value)}
-            className={`rounded-full px-4 py-1.5 text-[13px] font-medium transition-all duration-200 active:scale-95 ${
+            className={`shrink-0 whitespace-nowrap rounded-full px-4 py-1.5 text-[13px] font-medium transition-all duration-200 active:scale-95 ${
               filter === cat.value
                 ? 'bg-[#1d1d1f] text-white'
                 : 'bg-white text-[#86868b] ring-1 ring-[#d2d2d7]/60 hover:ring-[#86868b] hover:text-[#1d1d1f]'

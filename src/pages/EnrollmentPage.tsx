@@ -80,7 +80,7 @@ export default function EnrollmentPage() {
 
   if (step === 'success') {
     return (
-      <div className="mx-auto max-w-md px-6 py-20 text-center animate-fade-up">
+      <div className="mx-auto max-w-md px-4 py-14 text-center animate-fade-up sm:px-6 sm:py-20">
         <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500/10">
           <CheckCircle2 className="h-7 w-7 text-emerald-600" />
         </div>
@@ -105,7 +105,7 @@ export default function EnrollmentPage() {
   }
 
   return (
-    <div className="mx-auto max-w-2xl px-6 py-10 md:py-14">
+    <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 md:py-14">
       <button
         onClick={() => navigate(`/cursos/${course.id}`)}
         className="group mb-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[#86868b] transition-colors hover:text-[#1d1d1f]"
@@ -130,19 +130,19 @@ export default function EnrollmentPage() {
       </div>
 
       {/* Course summary */}
-      <div className="mb-6 flex items-center gap-4 rounded-2xl border border-[#d2d2d7]/40 bg-white p-4">
-        <img src={course.image} alt={course.title} className="h-14 w-14 rounded-xl object-cover" />
+      <div className="mb-5 flex items-center gap-3 rounded-2xl border border-[#d2d2d7]/40 bg-white p-3 sm:mb-6 sm:gap-4 sm:p-4">
+        <img src={course.image} alt={course.title} className="h-12 w-12 rounded-lg object-cover sm:h-14 sm:w-14 sm:rounded-xl" />
         <div className="min-w-0 flex-1">
-          <h3 className="truncate text-[14px] font-semibold text-[#1d1d1f]">{course.title}</h3>
-          <p className="text-[12px] text-[#86868b]">{course.duration} &middot; {course.instructor}</p>
+          <h3 className="truncate text-[13px] font-semibold text-[#1d1d1f] sm:text-[14px]">{course.title}</h3>
+          <p className="text-[11px] text-[#86868b] sm:text-[12px]">{course.duration} &middot; {course.instructor}</p>
         </div>
-        <span className="shrink-0 text-[17px] font-bold text-[#1d1d1f]">${course.price.toLocaleString()}</span>
+        <span className="shrink-0 text-[15px] font-bold text-[#1d1d1f] sm:text-[17px]">${course.price.toLocaleString()}</span>
       </div>
 
       {/* Step 1 */}
       {step === 'info' && (
-        <div className="animate-fade-in rounded-2xl border border-[#d2d2d7]/40 bg-white p-6">
-          <h2 className="mb-5 text-[17px] font-semibold text-[#1d1d1f]">Informacion Personal</h2>
+        <div className="animate-fade-in rounded-2xl border border-[#d2d2d7]/40 bg-white p-4 sm:p-6">
+          <h2 className="mb-4 text-[16px] font-semibold text-[#1d1d1f] sm:mb-5 sm:text-[17px]">Informacion Personal</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {[
               { label: 'Nombre completo', key: 'name', value: name, set: setName, ph: 'Juan Carlos Perez', type: 'text' },
@@ -165,8 +165,8 @@ export default function EnrollmentPage() {
 
       {/* Step 2 */}
       {step === 'payment' && (
-        <div className="animate-fade-in rounded-2xl border border-[#d2d2d7]/40 bg-white p-6">
-          <h2 className="mb-5 text-[17px] font-semibold text-[#1d1d1f]">Pago</h2>
+        <div className="animate-fade-in rounded-2xl border border-[#d2d2d7]/40 bg-white p-4 sm:p-6">
+          <h2 className="mb-4 text-[16px] font-semibold text-[#1d1d1f] sm:mb-5 sm:text-[17px]">Pago</h2>
 
           <label className="mb-2 block text-[12px] font-medium text-[#86868b]">Tipo de pago</label>
           <div className="mb-5 grid gap-3 sm:grid-cols-2">

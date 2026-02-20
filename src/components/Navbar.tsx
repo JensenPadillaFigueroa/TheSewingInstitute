@@ -19,11 +19,11 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 border-b border-white/10 bg-[#0f1f33]/80 backdrop-blur-xl">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="flex h-14 items-center justify-between">
-          <Link to="/" className="group flex items-center gap-2.5">
-            <Scissors className="h-5 w-5 text-amber-400 transition-transform duration-300 group-hover:rotate-12" />
-            <span className="text-[15px] font-semibold tracking-tight text-white">The Sewing Institute</span>
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="flex h-12 items-center justify-between sm:h-14">
+          <Link to="/" className="group flex items-center gap-2">
+            <Scissors className="h-5 w-5 shrink-0 text-amber-400 transition-transform duration-300 group-hover:rotate-12" />
+            <span className="text-[14px] font-semibold tracking-tight text-white sm:text-[15px]">The Sewing Institute</span>
           </Link>
 
           <div className="hidden items-center gap-1 md:flex">

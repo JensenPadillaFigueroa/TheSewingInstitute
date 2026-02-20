@@ -30,7 +30,7 @@ export default function CourseDetailPage() {
   const percentFull = Math.round((course.enrolled / course.capacity) * 100)
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-10 md:py-14">
+    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 md:py-14">
       <button
         onClick={() => navigate('/cursos')}
         className="group mb-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[#86868b] transition-colors hover:text-[#1d1d1f]"
@@ -39,7 +39,7 @@ export default function CourseDetailPage() {
         Volver a cursos
       </button>
 
-      <div className="grid gap-8 lg:grid-cols-[1fr_340px]">
+      <div className="grid gap-6 lg:grid-cols-[1fr_340px] lg:gap-8">
         <div>
           <div className="mb-6 overflow-hidden rounded-2xl">
             <img
@@ -52,10 +52,10 @@ export default function CourseDetailPage() {
           <div className="mb-3 inline-block rounded-full bg-[#1e3a5f]/5 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-[#1e3a5f]">
             {course.category}
           </div>
-          <h1 className="mb-3 text-2xl font-bold tracking-tight text-[#1d1d1f] md:text-3xl">
+          <h1 className="mb-3 text-xl font-bold tracking-tight text-[#1d1d1f] sm:text-2xl md:text-3xl">
             {course.title}
           </h1>
-          <p className="mb-8 text-[15px] leading-relaxed text-[#86868b]">
+          <p className="mb-6 text-[14px] leading-relaxed text-[#86868b] sm:mb-8 sm:text-[15px]">
             {course.longDescription}
           </p>
 
@@ -76,7 +76,7 @@ export default function CourseDetailPage() {
         </div>
 
         <div>
-          <div className="sticky top-20 rounded-2xl border border-[#d2d2d7]/40 bg-white p-6">
+          <div className="rounded-2xl border border-[#d2d2d7]/40 bg-white p-5 sm:p-6 lg:sticky lg:top-20">
             <div className="mb-5">
               <span className="text-2xl font-bold tracking-tight text-[#1d1d1f]">
                 ${course.price.toLocaleString()}
