@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 pb-14 pt-12 sm:px-6 md:pb-28 md:pt-24">
           <div className="animate-fade-up max-w-2xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-[13px] font-medium text-amber-300 backdrop-blur-sm">
-              <SewingIcon className="h-4 w-4" />
+              <SewingIcon className="text-base" />
               Instituto de Costura
             </div>
             <h1 className="mb-4 text-[clamp(1.6rem,5vw,3.5rem)] font-bold leading-[1.1] tracking-tight text-white sm:mb-5">

@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-10">
           <div>
             <div className="mb-3 flex items-center gap-2">
-              <SewingIcon className="h-5 w-5 text-[#1e3a5f]" />
+              <SewingIcon className="text-lg" />
               <span className="text-sm font-semibold text-[#1d1d1f]">{schoolInfo.name}</span>
             </div>
             <p className="text-[13px] leading-relaxed text-[#86868b]">{schoolInfo.slogan}</p>

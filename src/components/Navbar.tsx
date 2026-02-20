@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex h-14 items-center justify-between sm:h-16">
           <Link to="/" className="group flex items-center gap-2.5">
-            <SewingIcon className="h-6 w-6 shrink-0 text-amber-400" />
+            <SewingIcon className="text-2xl" />
             <span className="text-[16px] font-bold tracking-tight text-white sm:text-[18px]">The Sewing Institute</span>
           </Link>
 
