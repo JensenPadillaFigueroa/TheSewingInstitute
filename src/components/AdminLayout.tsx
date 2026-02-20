@@ -5,7 +5,7 @@ import {
   Users,
   DollarSign,
   ArrowLeft,
-  Plane,
+  Scissors,
 } from 'lucide-react'
 
 export default function AdminLayout() {
@@ -25,8 +25,8 @@ export default function AdminLayout() {
     <div className="flex min-h-screen bg-[#fafafa]">
       <aside className="flex w-56 flex-col border-r border-[#d2d2d7]/20 bg-[#0f1f33]">
         <div className="flex items-center gap-2 border-b border-white/10 px-5 py-4">
-          <Plane className="h-4 w-4 text-amber-400" />
-          <span className="text-[14px] font-semibold text-white">AV Admin</span>
+          <Scissors className="h-4 w-4 text-amber-400" />
+          <span className="text-[14px] font-semibold text-white">TSI Admin</span>
         </div>
 
         <nav className="flex-1 space-y-0.5 p-3">

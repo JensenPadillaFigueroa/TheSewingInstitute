@@ -1,4 +1,4 @@
-import { Plane, Mail, Phone, MapPin } from 'lucide-react'
+import { Scissors, Mail, Phone, MapPin } from 'lucide-react'
 import { schoolInfo } from '../data/mockData'
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           <div>
             <div className="mb-3 flex items-center gap-2">
-              <Plane className="h-4 w-4 text-[#1e3a5f]" />
+              <Scissors className="h-4 w-4 text-[#1e3a5f]" />
               <span className="text-sm font-semibold text-[#1d1d1f]">{schoolInfo.name}</span>
             </div>
             <p className="text-[13px] leading-relaxed text-[#86868b]">{schoolInfo.slogan}</p>

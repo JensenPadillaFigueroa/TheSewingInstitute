@@ -6,7 +6,7 @@ export interface Course {
   duration: string
   price: number
   downPaymentMin: number
-  category: 'piloto' | 'mecanica' | 'despachador' | 'drones'
+  category: 'costura' | 'patronaje' | 'bordado' | 'confeccion' | 'diseno' | 'tapiceria'
   image: string
   instructor: string
   schedule: string

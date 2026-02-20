@@ -5,10 +5,12 @@ import { useState } from 'react'
 
 const categories = [
   { value: 'todos', label: 'Todos' },
-  { value: 'piloto', label: 'Piloto' },
-  { value: 'mecanica', label: 'Mecanica' },
-  { value: 'despachador', label: 'Despachador' },
-  { value: 'drones', label: 'Drones' },
+  { value: 'costura', label: 'Costura' },
+  { value: 'patronaje', label: 'Patronaje' },
+  { value: 'bordado', label: 'Bordado' },
+  { value: 'confeccion', label: 'Confeccion' },
+  { value: 'diseno', label: 'Diseno' },
+  { value: 'tapiceria', label: 'Tapiceria' },
 ]
 
 export default function CoursesPage() {

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import {
-  Plane,
+  Scissors,
   GraduationCap,
   Users,
   BookOpen,
@@ -22,8 +22,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6 pb-20 pt-16 md:pb-28 md:pt-24">
           <div className="animate-fade-up max-w-2xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-[13px] font-medium text-amber-300 backdrop-blur-sm">
-              <Plane className="h-3.5 w-3.5" />
-              Academia de Aviacion
+              <Scissors className="h-3.5 w-3.5" />
+              Instituto de Costura
             </div>
             <h1 className="mb-5 text-[clamp(2rem,5vw,3.5rem)] font-bold leading-[1.1] tracking-tight text-white">
               {schoolInfo.slogan}
@@ -80,7 +80,7 @@ export default function HomePage() {
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-[#1d1d1f] md:text-3xl">Sobre Nosotros</h2>
             <p className="mx-auto max-w-lg text-[15px] text-[#86868b]">
               Fundada en {schoolInfo.founded}, somos una institucion comprometida con la
-              excelencia en la formacion aeronautica.
+              excelencia en la formacion textil.
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function HomePage() {
           <div className="mb-10 text-center">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-[#1d1d1f] md:text-3xl">Cursos Destacados</h2>
             <p className="mx-auto max-w-lg text-[15px] text-[#86868b]">
-              Explora nuestros programas mas populares y comienza tu carrera en la aviacion.
+              Explora nuestros programas mas populares y comienza tu carrera en el mundo textil.
             </p>
           </div>
 
@@ -169,9 +169,9 @@ export default function HomePage() {
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-[#0f1f33] to-[#1e3a5f] px-8 py-14 text-center md:px-16">
-            <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">Listo para despegar?</h2>
+            <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">Lista para crear?</h2>
             <p className="mx-auto mb-8 max-w-md text-[15px] text-white/50">
-              Inscribete hoy y da el primer paso hacia tu carrera en la aviacion.
+              Inscribete hoy y da el primer paso hacia tu carrera en el mundo de la costura.
               Opciones de financiamiento disponibles.
             </p>
             <Link

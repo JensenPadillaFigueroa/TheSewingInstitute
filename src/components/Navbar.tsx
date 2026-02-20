@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Plane, Menu, X } from 'lucide-react'
+import { Scissors, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Navbar() {
@@ -22,8 +22,8 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex h-14 items-center justify-between">
           <Link to="/" className="group flex items-center gap-2.5">
-            <Plane className="h-5 w-5 text-amber-400 transition-transform duration-300 group-hover:-rotate-6" />
-            <span className="text-[15px] font-semibold tracking-tight text-white">AV School</span>
+            <Scissors className="h-5 w-5 text-amber-400 transition-transform duration-300 group-hover:rotate-12" />
+            <span className="text-[15px] font-semibold tracking-tight text-white">The Sewing Institute</span>
           </Link>
 
           <div className="hidden items-center gap-1 md:flex">
