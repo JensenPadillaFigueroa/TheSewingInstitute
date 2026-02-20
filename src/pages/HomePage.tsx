@@ -23,7 +23,7 @@ export default function HomePage() {
           <div className="animate-fade-up max-w-2xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-[13px] font-medium text-amber-300 backdrop-blur-sm">
               <SewingIcon className="text-base" />
-              Instituto de Costura
+              Instituto Multidisciplinario
             </div>
             <h1 className="mb-4 text-[clamp(1.6rem,5vw,3.5rem)] font-bold leading-[1.1] tracking-tight text-white sm:mb-5">
               {schoolInfo.slogan}
@@ -80,7 +80,7 @@ export default function HomePage() {
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-[#1d1d1f] md:text-3xl">Sobre Nosotros</h2>
             <p className="mx-auto max-w-lg text-[15px] text-[#86868b]">
               Fundada en {schoolInfo.founded}, somos una institucion comprometida con la
-              excelencia en la formacion textil.
+              excelencia en la formacion tecnica y creativa.
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function HomePage() {
           <div className="mb-10 text-center">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-[#1d1d1f] md:text-3xl">Cursos Destacados</h2>
             <p className="mx-auto max-w-lg text-[15px] text-[#86868b]">
-              Explora nuestros programas mas populares y comienza tu carrera en el mundo textil.
+              Explora nuestros programas mas populares y comienza tu carrera profesional.
             </p>
           </div>
 
@@ -171,7 +171,7 @@ export default function HomePage() {
           <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#0f1f33] to-[#1e3a5f] px-6 py-10 text-center sm:rounded-3xl sm:px-8 sm:py-14 md:px-16">
             <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">Lista para crear?</h2>
             <p className="mx-auto mb-8 max-w-md text-[15px] text-white/50">
-              Inscribete hoy y da el primer paso hacia tu carrera en el mundo de la costura.
+              Inscribete hoy y da el primer paso hacia tu carrera profesional.
               Opciones de financiamiento disponibles.
             </p>
             <Link

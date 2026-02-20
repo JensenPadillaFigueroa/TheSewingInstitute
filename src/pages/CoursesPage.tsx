@@ -11,6 +11,9 @@ const categories = [
   { value: 'confeccion', label: 'Confeccion' },
   { value: 'diseno', label: 'Diseno' },
   { value: 'tapiceria', label: 'Tapiceria' },
+  { value: 'piloto', label: 'Piloto' },
+  { value: 'drones', label: 'Drones' },
+  { value: 'mecanica', label: 'Mecanica' },
 ]
 
 export default function CoursesPage() {
