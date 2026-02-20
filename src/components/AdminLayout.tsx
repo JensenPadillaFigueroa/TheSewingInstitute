@@ -6,10 +6,10 @@ import {
   Users,
   DollarSign,
   ArrowLeft,
-  Scissors,
   Menu,
   X,
 } from 'lucide-react'
+import SewingIcon from './SewingIcon'
 
 export default function AdminLayout() {
   const location = useLocation()
@@ -31,7 +31,7 @@ export default function AdminLayout() {
     <>
       <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
         <div className="flex items-center gap-2">
-          <Scissors className="h-4 w-4 text-amber-400" />
+          <SewingIcon className="h-5 w-5 text-amber-400" />
           <span className="text-[14px] font-semibold text-white">TSI Admin</span>
         </div>
         <button onClick={() => setSidebarOpen(false)} className="text-white/50 md:hidden">

@@ -1,4 +1,5 @@
-import { Scissors, Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin } from 'lucide-react'
+import SewingIcon from './SewingIcon'
 import { schoolInfo } from '../data/mockData'
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-10">
           <div>
             <div className="mb-3 flex items-center gap-2">
-              <Scissors className="h-4 w-4 text-[#1e3a5f]" />
+              <SewingIcon className="h-5 w-5 text-[#1e3a5f]" />
               <span className="text-sm font-semibold text-[#1d1d1f]">{schoolInfo.name}</span>
             </div>
             <p className="text-[13px] leading-relaxed text-[#86868b]">{schoolInfo.slogan}</p>
